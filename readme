@@ -1,0 +1,5 @@
+config.py文件中的tag_url函数的url_info地址修改成正式环境的url
+
+#运维测试使用
+项目启动端口号10000
+nohup python3 main.py >logs/server.log 2>&1 &
